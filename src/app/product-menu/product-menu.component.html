@@ -1,0 +1,14 @@
+<!-- 4.  Write *ngFor and html to display product values -->
+
+<div *ngFor="let product of allProducts; index as i ">
+    <p>Name :  {{product.name}}</p>
+    <p>Price : {{product.price}}</p>
+    <p>Product ID : {{product.productId}}</p>
+    <p>Index :  {{i}} </p>
+    <br/>
+
+</div>
+
+
+<p> Total Products : {{allProducts.length}} </p>
+
